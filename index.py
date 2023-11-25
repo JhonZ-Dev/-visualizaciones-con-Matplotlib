@@ -16,3 +16,5 @@ for i in range(num_experimentos):
     ruido = np.random.normal(0, 0.1, num_puntos)  # Ruido gaussiano
     datos_experimento = tendencia + ruido
     datos_experimentos.append(datos_experimento)
+    # Visualizar los datos
+plt.figure(figsize=(10, 6))

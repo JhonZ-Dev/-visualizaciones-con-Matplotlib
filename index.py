@@ -20,3 +20,10 @@ for i in range(num_experimentos):
 plt.figure(figsize=(10, 6))
 for i in range(num_experimentos):
     plt.plot(tiempo, datos_experimentos[i], label=f'Experimento {i + 1}')
+
+plt.title('Datos de Experimentos')
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Valor')
+plt.legend()
+plt.grid(True)
+plt.show()

@@ -5,3 +5,5 @@ import matplotlib.pyplot as plt
 np.random.seed(42)
 # Número de experimentos
 num_experimentos = 5
+# Número de puntos de datos por experimento
+num_puntos = 100

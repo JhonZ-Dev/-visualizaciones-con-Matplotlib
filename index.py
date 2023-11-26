@@ -19,7 +19,8 @@ for i in range(num_experimentos):
     datos_experimentos.append(datos_experimento)
     # Visualizar los datos
 plt.figure(figsize=(10, 6))
-
+for i in range(num_experimentos):
+    plt.plot(tiempo, datos_experimentos[i], label=f'Experimento {i + 1}')
 
 plt.title('Datos de Experimentos')
 plt.xlabel('Tiempo (s)')
